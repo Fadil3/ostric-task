@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Muhammad Rayhan Fadillah | Ostric task chapter 1</title>
+    </head>
+
+    <body>
+        <p>Let Ostric Know Who You Are</p>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">
+                            * Name
+                        </label>
+                    </td>
+                    <td>
+                        <input name="name" required placeholder="Enter Your Name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">
+                            * Email
+                        </label>
+                    </td>
+                    <td>
+                        <input name="email" placeholder="Enter Your email" required type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">
+                            * Age
+                        </label>
+                    </td>
+                    <td>
+                        <input name="age" placeholder="Age" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gen">
+                            Role :
+                        </label>
+                    </td>
+                    <td>
+                        <select id="role">
+                            <option value="learner">learner</option>
+                            <option value="instructor">instructor</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gen">
+                            Ostric Generation :
+                        </label>
+                    </td>
+                    <td>
+                        <input required type="radio" id="male" name="gen" value="2018">
+                        <label for="2018">2018</label><br>
+                        <input required type="radio" id="female" name="gen" value="2019">
+                        <label for="2019">2019</label> <br>
+                        <input required type="radio" id="female" name="gen" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="interest">
+                            Interested in :
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="interest" value="front-end">
+                        <label for="front-end">front-end</label><br>
+                        <input type="checkbox" name="interest" value="back-end">
+                        <label for="back-end">back-end</label> <br>
+                        <input type="checkbox" name="interest" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+
+            </table>
+            <button type="submit">Submit</button>
+            <br>
+            <br>
+            <a href="index.html">Back to Home</a>
+        </form>
+    </body>
+
+</html>
